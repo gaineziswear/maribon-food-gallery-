@@ -1,11 +1,10 @@
 # MARIBON HUB
 
-Mauritius-first digital food gallery and food-court MVP, starting with the Saint Pierre → Moka pilot.
+Mauritius-first digital food gallery and food-court MVP, starting with the Saint Pierre → Moka pilot. This app now has a dependency-free static build so it can be built and hosted in restricted environments.
 
 ## Run locally
 
 ```bash
-npm install
 npm run dev
 ```
 
@@ -22,4 +21,6 @@ This repository provides a production-quality responsive web experience and a cl
 
 ## Deployment
 
-Deploy the static `dist/` output to a CDN/static host. For the full operational service, pair it with an API service and PostgreSQL/object-storage providers configured through `.env.example`.
+Deploy the static `dist/` output to a CDN/static host. A GitHub Pages workflow is included and publishes automatically after the repository is connected to GitHub and Pages is enabled with **GitHub Actions** as its source.
+
+For the full operational service, pair it with an API service and PostgreSQL/object-storage providers configured through `.env.example`.

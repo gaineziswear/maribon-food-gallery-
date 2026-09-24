@@ -2,7 +2,7 @@
 
 ## Current web client
 
-The responsive Vite/React client is a food-discovery MVP. Its data boundary lives in `src/data.js`, keeping public **REFERENCE DATA**, **DEMO / TEST DATA**, and future **APPROVED MARIBON PARTNERS** distinguishable in the rendering layer. Reference menu items have `price: null`; the interface displays “Price to verify” and blocks cart additions.
+The responsive dependency-free static web client is a food-discovery MVP. Its data boundary lives in `src/data.js`, keeping public **REFERENCE DATA**, **DEMO / TEST DATA**, and future **APPROVED MARIBON PARTNERS** distinguishable in the rendering layer. Reference menu items have `price: null`; the interface displays “Price to verify” and blocks cart additions.
 
 ## Production service boundary
 
